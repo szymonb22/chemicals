@@ -1,0 +1,14 @@
+.closeButton{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formInput{
+    width: 100%;
+}

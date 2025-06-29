@@ -1,0 +1,10 @@
+<div class="container">
+  <h1 class="headerName">Pierwiastki chemiczne</h1>
+  @if (!periodicStore.loading()) {
+  <app-list></app-list>
+  } @else{
+    <div class="spinner">
+      <mat-spinner/>
+    </div>
+  }  
+</div>
